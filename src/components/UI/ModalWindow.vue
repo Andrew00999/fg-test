@@ -33,7 +33,7 @@ export default {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, .5);
-  z-index: 2;
+  z-index: 5;
 
   display: flex;
   align-items: center;
@@ -58,4 +58,19 @@ export default {
 .fade-leave-to {
   opacity: 0;
 }
+
+
+
+
+// @media
+
+@media (max-width: 992px) {
+  .modal {
+    &_content {
+      width: 90% !important;
+    }
+  }
+}
+
+
 </style>

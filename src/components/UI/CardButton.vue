@@ -13,7 +13,6 @@ export default {
 <style scoped lang="scss">
 .card_button {
   width: 100%;
-  height: 100%;
   padding: 1.25rem 0;
   border: 2px solid #CDCDCD;
   text-align: center;
